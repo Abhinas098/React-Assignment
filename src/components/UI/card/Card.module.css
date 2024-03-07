@@ -1,0 +1,51 @@
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .card {
+    width: calc(50% - 20px); 
+    margin: 20px;
+    background-color: hsla(0, 0%, 96%, 0.518);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    height: auto;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card h2 {
+    margin-bottom: 10px;
+  }
+
+  
+  @media (min-width: 720px) {
+    .card {
+      width: calc(25% - 20px); 
+      margin: 0 auto;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .card {
+      margin: 0 auto;
+      width: calc(20% - 20px); 
+    }
+  }
+  
+  @media screen and (max-width:720px) {
+    .card{
+      margin: 5%  auto;
+      width: 70vw;
+    }
+  }
+
+    
+  
+  

@@ -1,0 +1,19 @@
+.blogContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blogPage h1 {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  border-bottom: 2px solid aqua;
+  border-radius: 20px;
+  padding: 1% 2%;
+  padding-top: 70px;
+  margin-bottom: 4%;
+  transition: border-color 0.3s ease-in-out;
+}
+.blogPage h1:hover {
+  border-color: #4CAF50; 
+}

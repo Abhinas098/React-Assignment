@@ -1,0 +1,23 @@
+.offers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.offerContainer {
+  min-height: 94vh;
+}
+
+.heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  width: fit-content;
+  border-bottom: 2px solid aqua;
+  border-radius: 20px;
+  padding: 1% 2%;
+  align-self: center;
+  padding-top: 140px;
+
+}
